@@ -6,6 +6,7 @@
 - [Learned](#learned)
   - [메인 페이지 작성](#%EB%A9%94%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9E%91%EC%84%B1)
     - [MongoDB](#mongodb)
+    - [Python Lambda](#python-lambda)
 - [Will learn](#will-learn)
 - [Retrospect](#retrospect)
 
@@ -17,7 +18,7 @@
 ## 메인 페이지 작성
 
 ### MongoDB
-1. MongoDB
+- MongoDB
 MonhoDB를 처음 써봤는데  
 NoSQL으로 분류되며 RDBMS와는 다음과 같은 차이가 있다.
 <table>
@@ -56,7 +57,7 @@ NoSQL으로 분류되며 RDBMS와는 다음과 같은 차이가 있다.
     </tr>
   </tbody>
 </table>
-2. Content Collection  
+- Content Collection  
 MongoDB는 자유로운 데이터 모델을 지원해서  
 Collection(=table)에 JSON형태의 데이터를 넣을수 있고  
 그렇기에 Object를 저장할 수 있다.  
@@ -104,7 +105,7 @@ Collection(=table)에 JSON형태의 데이터를 넣을수 있고
     "file": "file-2022-03-08-20-35-33.png"
 }
 ```
-3. Python Lambda  
+### Python Lambda  
 ~~테이블 여러개 만들지 않아도 좋다고 한거 취소..~~  
 메인 페이지에서는 맥주별로 취급되는 편의점들 중에서 최저가만 노출하고자 하였고  
 CASS같은 경우는 1개 가격은 CU의 2500원, 4개 가격은 GS의  12000원이 노출 되어야 한다.
