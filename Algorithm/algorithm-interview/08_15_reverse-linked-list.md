@@ -18,18 +18,19 @@
 - 단일 연결 리스트의 헤를 받아 목록을 뒤집어 역정렬하여 반환하여라.  
 
 ## 예시
-- Example 1:  
-  Input: head = [1,2,3,4,5]  
-  Output: [5,4,3,2,1]  
+``` python
+Example 1:  
+Input: head = [1,2,3,4,5]  
+Output: [5,4,3,2,1]  
 
-- Example 2:  
-  Input: head = [1,2]  
-  Output: [2,1]  
+Example 2:  
+Input: head = [1,2]  
+Output: [2,1]  
 
-- Example 3:  
-  Input: head = []  
-  Output: []  
-
+Example 3:  
+Input: head = []  
+Output: []  
+```
 ## 숙고 1
 - 새 연결 리스트를 만들어서 기존의 연결 리스에 역순으로 넣어주면 안될까?
 
