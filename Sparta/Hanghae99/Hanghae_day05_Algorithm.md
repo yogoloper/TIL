@@ -76,7 +76,7 @@ get_idx('baekjoon')
 
 ### 애너그램 그룹
 https://leetcode.com/problems/group-anagrams/  
-https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/06_05_group-anagrams.py  
+https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/06_05_group-anagrams.md  
 
 > [문제]  
 > 문자열 배열이 주어지면 Anagram을 함께 그룹화 한다.  
