@@ -78,55 +78,13 @@ get_idx('baekjoon')
 https://leetcode.com/problems/group-anagrams/  
 https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/06_05_group-anagrams.md  
 
-### 가장 긴 팰린드롬 부분 문자열  
+### 가장 긴 팰린드롬 부분 문자열 - 더 공부하기
 https://leetcode.com/problems/longest-palindromic-substring/  
-https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/06_06_longest-palindromic-substring.py  
+https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/06_06_longest-palindromic-substring.md  
 
-> [문제]  
-> 문자열이 주어지면 문자열 중에서 가장 긴 회문을 반환한다.
->
-> [부연설명]
-> 회문이란 "수박이박수", "다시합창합시다"와 같이  
-> 문자열의 가운데를 기준으로 앞뒤가 같은 것을 말한다.
->
-> Example 1:  
-> Input: s = "babad"
-> Output: "bab"
-> Explanation: "aba" is also a valid answer.
->
-> Example 2:  
-> Input: s = "cbbd"
-> Output: "bb"
-
-> [풀이 1차]  
-> 
-
-### 세 수의 합  
-https://leetcode.com/problems/3sum/  
-https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/07_09_3sum.py  
-
-> [문제]  
-> 숫자열 배열이 세 개의 항목을 더해 0이 되는 트리플 셋을 반환한다.
-> 트리플 셋의 중복은 없어야 한다.
->
-> Example 1:  
-> Input: nums = [-1,0,1,2,-1,-4]  
-> Output: [[-1,-1,2],[-1,0,1]]  
->
-> Example 2:  
-> Input: nums = []  
-> Output: []  
->
-> Example 3:  
-> Input: nums = [0]
-> Output: []
-
-> [풀이 1차]  
-> 간단하게 반복문을 세바퀴를 돌렸더니 당연하게 타임 리밋에 걸리게 된다..
-
-``` python
-
-```
+### 세 수의 합 - 더 공부하기
+https://leetcode.com/problems/3sum  
+https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/07_09_3sum.md
 
 ### 배열 파티션  
 https://leetcode.com/problems/array-partition-i  

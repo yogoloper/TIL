@@ -12,7 +12,6 @@
 
 <!-- /TOC -->
 
-
 ## 문제
 - https://leetcode.com/problems/reverse-linked-list/
 - 단일 연결 리스트의 헤를 받아 목록을 뒤집어 역정렬하여 반환하여라.  
