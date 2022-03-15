@@ -174,36 +174,46 @@ class MyCircularQueue:
 
 ## 결과
 ``` python
-obj = MyCircularQueue(3) queue: [None, None, None] 
+obj = MyCircularQueue(3) 
+queue: [None, None, None] 
 front 0 rear: 0 
 
-enQueue(1) queue: [1, None, None] 
+enQueue(1) 
+queue: [1, None, None] 
 front 0 rear: 1 
 
-enQueue(2) queue: [1, 2, None] 
+enQueue(2) 
+queue: [1, 2, None] 
 front 0 rear: 2 
 
-enQueue(3) queue: [1, 2, 3] 
+enQueue(3) 
+queue: [1, 2, 3] 
 front 0 rear: 0 
 
-enQueue(4) queue: [1, 2, 3] 
+enQueue(4) 
+queue: [1, 2, 3] 
 front 0 rear: 0 
 
-Rear() queue: [1, 2, 3] 
+Rear() 
+queue: [1, 2, 3] 
 front 0 rear: 0
 Rear() result: 3 
 
-isFull() queue: [1, 2, 3] 
+isFull() 
+queue: [1, 2, 3] 
 front 0 rear: 0
 isFull() result: True 
 
-deQueue() queue: [None, 2, 3] 
+deQueue() 
+queue: [None, 2, 3] 
 front 1 rear: 0 
 
-enQueue(4) queue: [4, 2, 3] 
+enQueue(4) 
+queue: [4, 2, 3] 
 front 1 rear: 1 
 
-Rear() queue: [4, 2, 3] 
+Rear() 
+queue: [4, 2, 3] 
 front 1 rear: 1
-Rear() result: 4 
+Rear() result: 4
 ```
