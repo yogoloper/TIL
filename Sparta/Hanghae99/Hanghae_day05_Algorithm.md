@@ -12,8 +12,8 @@
   - [알고리즘](#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
     - [예제 - 알파벳찾기](#%EC%98%88%EC%A0%9C---%EC%95%8C%ED%8C%8C%EB%B2%B3%EC%B0%BE%EA%B8%B0)
     - [애너그램 그룹](#%EC%95%A0%EB%84%88%EA%B7%B8%EB%9E%A8-%EA%B7%B8%EB%A3%B9)
-    - [가장 긴 팰린드롬 부분 문자열](#%EA%B0%80%EC%9E%A5-%EA%B8%B4-%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-%EB%B6%80%EB%B6%84-%EB%AC%B8%EC%9E%90%EC%97%B4)
-    - [세 수의 합](#%EC%84%B8-%EC%88%98%EC%9D%98-%ED%95%A9)
+    - [가장 긴 팰린드롬 부분 문자열 - 더 공부하기](#%EA%B0%80%EC%9E%A5-%EA%B8%B4-%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-%EB%B6%80%EB%B6%84-%EB%AC%B8%EC%9E%90%EC%97%B4---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+    - [세 수의 합 - 더 공부하기](#%EC%84%B8-%EC%88%98%EC%9D%98-%ED%95%A9---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
     - [배열 파티션](#%EB%B0%B0%EC%97%B4-%ED%8C%8C%ED%8B%B0%EC%85%98)
 - [Retrospect](#retrospect)
 
