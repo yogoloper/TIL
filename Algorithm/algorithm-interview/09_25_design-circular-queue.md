@@ -89,7 +89,7 @@ myCircularQueue.Rear();     // return 4
 
 
 ## 코드 1
-- https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/09_22_daily-temperatures_01.py  
+- https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/09_25_design-circular-queue_01.py
 ``` python
 class MyCircularQueue:
     # 생성자
