@@ -73,16 +73,16 @@ myCircularQueue.Rear();     // return 4
 - enQueue  
   - isFull을 통해 배열이 가득 찼는지 확인한다.
   - 가득 차지 않았다면 입력받은 값을 rear가 가리키는 곳에 입력 한다.
-  - Rear의 인덱스를 증가시킨다.
+  - rear의 인덱스를 증가시킨다.
 - deQueue  
   - isEmpty을 통해 베열이 비어있는지 확인한다.
   - 비어 있지 않다면 front를 통해 배열의 맨 앞 부분 값을 가져오고  
     배열의 해당 요소 값을 None으로 변경한다.
   - front의 인덱스를 증가시킨다.
 - Front  
-  - front의 인덱스 값을 가져온다.
+  - front 인덱스의 요소를 가져온다.
 - Rear  
-  - rear 의 인덱스 값을 가져온다.
+  - rear 인덱스의 요소를 가져온다.
 - isEmpty
   - front와 rear의 인덱스가 같고  
     queue[front] 가 None이면 True를 반환한다.
