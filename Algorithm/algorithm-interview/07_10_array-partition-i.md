@@ -1,6 +1,13 @@
 # 배열 파티션  
 
+<!-- TOC -->
 
+- [배열 파티션](#%EB%B0%B0%EC%97%B4-%ED%8C%8C%ED%8B%B0%EC%85%98)
+  - [문제](#%EB%AC%B8%EC%A0%9C)
+  - [숙고 1](#%EC%88%99%EA%B3%A0-1)
+  - [코드 1](#%EC%BD%94%EB%93%9C-1)
+
+<!-- /TOC -->
 
 ## 문제
 - https://leetcode.com/problems/array-partition-i  
