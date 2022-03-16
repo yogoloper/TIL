@@ -74,7 +74,7 @@ class LinkedList:
 - 문제 : https://leetcode.com/problems/reverse-linked-list/submissions/
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/08_15_reverse-linked-list.md  
 
-## 두 정렬 리스트 병합 - 더 공부하기
+## 두 정렬 리스트 병합
 - 문제 : https://leetcode.com/problems/merge-two-sorted-lists/
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/08_14_merge-two-sorted-lists.md  
 
