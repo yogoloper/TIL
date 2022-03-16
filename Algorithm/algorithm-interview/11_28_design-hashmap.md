@@ -1,5 +1,16 @@
 # 해시맵 디자인
 
+<!-- TOC -->
+
+- [해시맵 디자인](#%ED%95%B4%EC%8B%9C%EB%A7%B5-%EB%94%94%EC%9E%90%EC%9D%B8)
+  - [문제](#%EB%AC%B8%EC%A0%9C)
+  - [예시](#%EC%98%88%EC%8B%9C)
+  - [설명](#%EC%84%A4%EB%AA%85)
+  - [숙고 1](#%EC%88%99%EA%B3%A0-1)
+  - [코드 1](#%EC%BD%94%EB%93%9C-1)
+
+<!-- /TOC -->
+
 ## 문제
 - https://leetcode.com/problems/design-hashmap/
 - 내장된 해시 테이블 라이브러리를 사용하지 않고 HashMap을 디자인합니다.
