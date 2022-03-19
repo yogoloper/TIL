@@ -129,7 +129,7 @@ from dfs_bfs.prac import dfs_recursive, dfs_stack
 
 assert dfs_recursive(1, []) == [1, 2, 5, 6, 7, 3, 4]
 assert dfs_stack(1) == [1, 4, 3, 5, 7, 6, 2]
-``````
+```
 
 ## 섬의 개수 - 더 공부하기
 - 문제 : https://leetcode.com/problems/number-of-islands/
@@ -156,7 +156,7 @@ assert dfs_stack(1) == [1, 4, 3, 5, 7, 6, 2]
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/2606.md  
 
 # Retrospect
-DFS가 너무 어렵다  .
+DFS가 너무 어렵다.  
 어렵다기 보다는 인덱스를 따라가는게 너무 힘들다..
 재귀가 싫다..
 
