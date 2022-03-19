@@ -77,7 +77,7 @@ assert bfs_queue(1) == [1, 2, 3, 4, 5, 6, 7]
 - 문제 : https://leetcode.com/problems/reconstruct-itinerary/
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/12_38_reconstruct-itinerary.md
 
-## 코스 스케줄
+## 코스 스케줄 - 더 공부하기
 - 문제 : https://leetcode.com/problems/course-schedule/
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/12_39_course-schedule.md 
 
