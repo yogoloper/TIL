@@ -9,7 +9,7 @@
     - [클래스](#%ED%81%B4%EB%9E%98%EC%8A%A4)
     - [구현](#%EA%B5%AC%ED%98%84)
   - [역순 연결 리스트](#%EC%97%AD%EC%88%9C-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8)
-  - [두 정렬 리스트 병합 - 더 공부하기](#%EB%91%90-%EC%A0%95%EB%A0%AC-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%B3%91%ED%95%A9---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [두 정렬 리스트 병합](#%EB%91%90-%EC%A0%95%EB%A0%AC-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%B3%91%ED%95%A9)
   - [홀짝 연결 리스트](#%ED%99%80%EC%A7%9D-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8)
 - [Retrospect](#retrospect)
 
