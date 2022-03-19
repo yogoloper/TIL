@@ -9,6 +9,8 @@
   - [코드 1](#%EC%BD%94%EB%93%9C-1)
   - [숙고 2](#%EC%88%99%EA%B3%A0-2)
   - [코드 2](#%EC%BD%94%EB%93%9C-2)
+  - [숙고 3](#%EC%88%99%EA%B3%A0-3)
+  - [코드 3](#%EC%BD%94%EB%93%9C-3)
 
 <!-- /TOC -->
 
@@ -140,4 +142,53 @@ class Solution:
         dfs_recursive(r, c)
 
     return cnt
+```
+
+## 숙고 3
+- 큐를 이용해 BFS로 푸는 방법도 있었다.
+
+## 코드 3
+- https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/12_31_number-of-islands_03.py
+``` python
+class Solution:
+  def numIslands(self, grid: List[List[str]]) -> int:
+    dx = [0, 0, -1, 1]
+    dy = [1, -1, 0, 0]
+    rows, cols = len(grid), len(grid[0])
+    cnt = 0
+    
+    for row in range(rows):
+      for col in range(cols):
+        if grid[row][col] != '1':
+          continue
+        
+        cnt += 1
+        q = deque([(row, col)])
+                
+        while q:
+          x, y = q.popleft()
+          for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if nx < 0 or nx >= rows or ny < 0 or ny >= cols or grid[nx][ny] != '1':
+              continue
+            grid[nx][ny] = '0'
+            q.append([nx, ny])
+            
+    return cnt
+
+
+grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+
+grid2 = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
 ```
