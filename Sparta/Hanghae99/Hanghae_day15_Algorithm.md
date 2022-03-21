@@ -5,9 +5,9 @@
 - [[항해99 6기] 알고리즘 주간11 - 2022.03.21](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%8411---20220321)
 - [Learned](#learned)
   - [백트래킹](#%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9)
-  - [[boj]N-Queen](#bojn-queen)
-  - [[boj]1, 2, 3 더하기](#boj1-2-3-%EB%8D%94%ED%95%98%EA%B8%B0)
-  - [[boj]암호 만들기](#boj%EC%95%94%ED%98%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+  - [[boj]N-Queen - 더 공부하기](#bojn-queen---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[boj]1, 2, 3 더하기 - 더 공부하기](#boj1-2-3-%EB%8D%94%ED%95%98%EA%B8%B0---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[boj]암호 만들기 - 더 공부하기](#boj%EC%95%94%ED%98%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
@@ -24,17 +24,18 @@
 ## 백트래킹
 - 필요없는 경우를 가지치기(pruning)함으로써 시간복잡도를 줄이는 방법
 
-## [boj]N-Queen
+## [boj]N-Queen - 더 공부하기
 - 문제 : https://www.acmicpc.net/problem/9663
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/9663.md  
 
-## [boj]1, 2, 3 더하기
+## [boj]1, 2, 3 더하기 - 더 공부하기
 - 문제 : https://www.acmicpc.net/problem/9095
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/9095.md  
 
-## [boj]암호 만들기
+## [boj]암호 만들기 - 더 공부하기
 - 문제 : https://www.acmicpc.net/problem/1759
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/1759.md  
 
 # Retrospect
 완전탐색 알고리즘시리즈는 벅차다 벅차..
+다이나믹 프로그래밍도 벅차다..
