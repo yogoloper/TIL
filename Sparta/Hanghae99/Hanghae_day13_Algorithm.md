@@ -1,15 +1,15 @@
-# [항해99 6기] 알고리즘 주간(8) - 2022.03.19
+# [항해99 6기] 알고리즘 주간(9) - 2022.03.19
 
 <!-- TOC -->
 
-- [[항해99 6기] 알고리즘 주간8 - 2022.03.19](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%848---20220319)
+- [[항해99 6기] 알고리즘 주간9 - 2022.03.19](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%849---20220319)
 - [Learned](#learned)
   - [BFS](#bfs)
     - [BFS 구현](#bfs-%EA%B5%AC%ED%98%84)
   - [조합의 합](#%EC%A1%B0%ED%95%A9%EC%9D%98-%ED%95%A9)
   - [부분 집합](#%EB%B6%80%EB%B6%84-%EC%A7%91%ED%95%A9)
   - [일정 재구성 - 더 공부하기](#%EC%9D%BC%EC%A0%95-%EC%9E%AC%EA%B5%AC%EC%84%B1---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [코스 스케줄](#%EC%BD%94%EC%8A%A4-%EC%8A%A4%EC%BC%80%EC%A4%84)
+  - [코스 스케줄 - 더 공부하기](#%EC%BD%94%EC%8A%A4-%EC%8A%A4%EC%BC%80%EC%A4%84---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [[boj]단지번호붙이기 BFS - 더 공부하기](#boj%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0-bfs---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [[boj]바이러스 BFS - 더 공부하기](#boj%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4-bfs---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
 - [Retrospect](#retrospect)
