@@ -17,7 +17,7 @@
 - 2에서 9까지의 숫자를 포함하는 문자열이 주어지면 숫자가 나타낼 수 있는 모든 가능한 문자 조합을 반환한다.  
   임의의 순서로 답을 반환하여라.
 - 전화 버튼과 마찬가지로 숫자 대 문자 매핑이 아래에 나와있으며, 1은 어떤 문자에도 매핑되지 않는다.  
-  ![전화 버튼](./images/12_33_letter-combinations-of-a-phone-number_01_01.webp)
+  ![전화 버튼](./images/12_33_letter-combinations-of-a-phone-number_01.webp)
 
 ## 예시
 ``` python
