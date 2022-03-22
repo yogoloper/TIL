@@ -12,6 +12,7 @@
     - [NOR](#nor)
     - [XOR](#xor)
     - [XNOR](#xnor)
+    - [논리게이트 동작 영상](#%EB%85%BC%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8-%EB%8F%99%EC%9E%91-%EC%98%81%EC%83%81)
 
 <!-- /TOC -->
 
@@ -44,3 +45,5 @@
 - 둘 다 같을때 1
   ![XNOR](./images/chapter_11_08.png)
 
+### `논리게이트 동작 영상`
+- https://youtu.be/Mci7gysJtI4
