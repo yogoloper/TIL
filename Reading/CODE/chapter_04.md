@@ -42,7 +42,7 @@
 - 원자핵 주변을 도는 것을 **전자**라고 한다.
 
 ## 숙고
-- 참고 : https://diasm3.github.io/wiki/Chapter%204/#-%EC%B1%95%ED%84%B0-4%EC%97%90%EC%84%9C-%EB%A7%90%ED%95%98%EA%B3%A0%EC%9E%90-%ED%95%98%EB%8A%94-%EB%82%B4%EC%9A%A9
+- 참고 : https://diasm3.github.io/wiki/chapter04/
 
 같이 CODE를 읽는 스터디 팀원분의 글을 참고한다.
 
