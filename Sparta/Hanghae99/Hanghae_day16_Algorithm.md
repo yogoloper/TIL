@@ -16,7 +16,7 @@
   - [이진 트리의 직경 - 더 공부하기](#%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%A7%81%EA%B2%BD---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [가장 긴 동일 값의 경로 - 더 공부하기](#%EA%B0%80%EC%9E%A5-%EA%B8%B4-%EB%8F%99%EC%9D%BC-%EA%B0%92%EC%9D%98-%EA%B2%BD%EB%A1%9C---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [이진 트리 반전 - 더 공부하기](#%EC%9D%B4%EC%A7%84-%ED%8A%B8%EB%A6%AC-%EB%B0%98%EC%A0%84---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [[boj트리의 부모 찾기 - 더 공부하기](#boj%ED%8A%B8%EB%A6%AC%EC%9D%98-%EB%B6%80%EB%AA%A8-%EC%B0%BE%EA%B8%B0---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[boj]트리의 부모 찾기 - 더 공부하기](#boj%ED%8A%B8%EB%A6%AC%EC%9D%98-%EB%B6%80%EB%AA%A8-%EC%B0%BE%EA%B8%B0---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
@@ -103,7 +103,7 @@ o o o     Level 2  # 가장 아래 리프 노드
 - 문제 : https://leetcode.com/problems/invert-binary-tree/
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/14_45_invert-binary-tree.md 
 
-## [boj트리의 부모 찾기 - 더 공부하기
+## [boj]트리의 부모 찾기 - 더 공부하기
 - 문제 : https://www.acmicpc.net/problem/11725
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/9663.md  
 
