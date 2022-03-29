@@ -27,6 +27,7 @@
 <div style="background-color: white;">
 <image src="./images/Hanghae_day23_Algorithm_01.png">
 </div>
+
 ### 과정
 1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 본다. 그렇지 않은 경우에는
 2. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 두 부분 리스트로 나눈다.
