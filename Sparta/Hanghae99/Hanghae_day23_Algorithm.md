@@ -5,7 +5,6 @@
 - [[항해99 6기] 알고리즘 주간19 - 2022.03.29](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%8419---20220329)
 - [Learned](#learned)
   - [병합 정렬](#%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%AC)
-    - [과정](#%EA%B3%BC%EC%A0%95)
     - [시간 복잡도](#%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84)
     - [구현](#%EA%B5%AC%ED%98%84)
   - [구간 병합 - 더 공부하기](#%EA%B5%AC%EA%B0%84-%EB%B3%91%ED%95%A9---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
@@ -25,8 +24,9 @@
 - 존 폰 노이만(John von Neumann)이 제안한 방법  
   분할 정복 알고리즘의 하나 이다.  
   
-  ![](./images/Hanghae_day23_Algorithm_01.png)
-
+<div style="background-color: white;">
+<image src="./images/Hanghae_day23_Algorithm_01.png">
+</div>
 ### 과정
 1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 본다. 그렇지 않은 경우에는
 2. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 두 부분 리스트로 나눈다.
