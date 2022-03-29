@@ -9,6 +9,8 @@
     - [플립플롭](#%ED%94%8C%EB%A6%BD%ED%94%8C%EB%A1%AD)
       - [RS 플립플롭](#rs-%ED%94%8C%EB%A6%BD%ED%94%8C%EB%A1%AD)
       - [D 플립플롭](#d-%ED%94%8C%EB%A6%BD%ED%94%8C%EB%A1%AD)
+      - [엣지 트리거 D 플립플롭](#%EC%97%A3%EC%A7%80-%ED%8A%B8%EB%A6%AC%EA%B1%B0-d-%ED%94%8C%EB%A6%BD%ED%94%8C%EB%A1%AD)
+  - [숙고](#%EC%88%99%EA%B3%A0)
 
 <!-- /TOC -->
 
