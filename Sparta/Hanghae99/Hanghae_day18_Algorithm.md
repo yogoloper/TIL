@@ -11,7 +11,8 @@
 <!-- /TOC -->
 
 # Learned
-
+- 방문 길이
+-타겟 넘버 - 더 공부하기
 
 ## 방문 길이
 - 문제 : https://programmers.co.kr/learn/courses/30/lessons/49994
