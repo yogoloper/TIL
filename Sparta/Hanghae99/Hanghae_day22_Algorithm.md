@@ -62,11 +62,11 @@ def quicksort(lst, start, end):
 
 ## 리스트 정렬
 - 문제 : https://leetcode.com/problems/sort-list/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_58_sort-list.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_58_sort-list.md  
 
 ## 색 정렬 - 더 공부하기
 - 문제 : https://leetcode.com/problems/sort-colors/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_63_sort-colors.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_63_sort-colors.md  
 
 ## [이코테]국영수
 - 문제 : https://www.acmicpc.net/problem/10825

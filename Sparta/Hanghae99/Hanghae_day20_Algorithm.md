@@ -104,11 +104,11 @@ def insertionsort_2(lst):
 
 ## 삽입 정렬 리스트 - 더 공부하기
 - 문제 : https://leetcode.com/problems/insertion-sort-list/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_60_insertion-sort-list.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_60_insertion-sort-list.md  
 
 ## 가장 큰 수
 - 문제 : https://leetcode.com/problems/largest-number/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_61_largest-number.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_61_largest-number.md  
 
 ## [이코테]성적이 낮은 순서로 학생 출력하기
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/06_03.md  

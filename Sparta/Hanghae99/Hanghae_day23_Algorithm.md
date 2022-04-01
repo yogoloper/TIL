@@ -71,7 +71,7 @@ def sort(lst):
 ```
 ## 구간 병합 - 더 공부하기
 - 문제 : https://leetcode.com/problems/merge-intervals/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_59_merge-intervals.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_59_merge-intervals.md  
 
 ## [이코테]실패율
 - 문제 : https://programmers.co.kr/learn/courses/30/lessons/42889

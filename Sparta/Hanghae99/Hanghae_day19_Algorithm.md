@@ -152,7 +152,7 @@ class Heap:
 
 ## 배열의 k번째 큰 요소
 - 문제 : https://leetcode.com/problems/kth-largest-element-in-an-array/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/15_55_kth-largest-element-in-an-array.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/15_55_kth-largest-element-in-an-array.md  
 
 ## [boj]최소 힙
 - 문제 : https://www.acmicpc.net/problem/1927

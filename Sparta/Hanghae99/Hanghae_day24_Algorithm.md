@@ -35,7 +35,7 @@
 
 ## 유효한 에너그램
 - 문제 : https://leetcode.com/problems/valid-anagram/
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/programmers/17_62_valid-anagram.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/17_62_valid-anagram.md  
 
 ## [이코테]카드 정렬하기
 - 문제 : https://www.acmicpc.net/problem/1715
