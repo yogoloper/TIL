@@ -101,10 +101,10 @@ def binary_search_builtin(nums, target):
 - 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/algorithm-interview/18_67_intersection-of-two-arrays.md  
 
 ## [이코테]범위를 반씩 좁혀가는 탐색
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/17_01.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/07_01.md  
 
 ## [이코테]부품 찾기
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/17_02.md  
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/07_02.md  
 
 # Retrospect
 학부때도 이진탐색 자체을 어려워 하지는 않았는데  
