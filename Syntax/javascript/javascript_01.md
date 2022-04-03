@@ -19,12 +19,12 @@
 - 1993년, 일리노이 대학교 어배너-섐페인의 NCSA는 최초의 대중적인 그래픽 웹 브라우저인 **NCSA 모자이크(Mosaic Web Browser)**를 출시하였다.
 - 1994년, **Netscape의 Marc Andreessen가 Netscape Navigator를 만들게 되었고**, 시장의 80%를 점유하였다.
 - 1994년 9월, Brendan Eich 영입하여 sheme scripting 을 변형하여 **모카(Mocha)** 를 만들게 되었고, 추후 **라이브 스크립트(LiveScript)**로 변경하였다.  
-  넷스케이프 네비게이터 안에는 라이브 스크립트 엔젠인 **인터프리터**를 탑재하여 출시 하였다.
-  이후, 개발자들은 라이브 스크립트를 통해 **DOM** 요소의 조작이 가능해졌다.
-  Java의 인기가 치솟아 LiveScript의 이름을 JavaScript로 이름을 변경하였다.
+  넷스케이프 네비게이터 안에는 라이브 스크립트 엔젠인 **인터프리터**를 탑재하여 출시하였다.  
+  이후, 개발자들은 라이브 스크립트를 통해 **DOM** 요소의 조작이 가능해졌다.  
+  Java의 인기가 치솟아 LiveScript의 이름을 JavaScript로 이름을 변경하였다.  
 - 1995년, Microtsoft는 Javascript의 리버스 엔지니어링을 통해 자신들만의 언어인 JScript를 출시하였다.  
   이와 더불의 InternetExplorer를 함께 출시하였다.
-  - **리버스 엔지니어링** - 바이너리 코드를 분석하여 소스를 복원
+  - **리버스 엔지니어링** - 바이너리 코드를 분석하여 소스를 복원  
 - 1996년, Javascript와 JScript의 대립으로 개발자들의 고충이 되었다.
 - 1996년 11월, 넷스케이프는 표준화 기구인 ECMA International에 표준화 요청을 하게 되었다.
 - 1997년 7월, **ECAMScript 1** 출시하게 되었다.  

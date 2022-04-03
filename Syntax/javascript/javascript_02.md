@@ -45,7 +45,7 @@ console.log('Hello world!')
 
 ### head 안에 포함
 - 브라우저가 HTML을 한줄한줄 parsing 하다가 script 태그를 만나면 해당 main.js를 다운받게 된다.
-- HTML parsing을 멈춘 상태에서 main.js 다운, main.js 실행 그리고 다시 HTML parsing을 진행
+- HTML parsing을 멈춘 상태에서 main.js 다운, main.js 실행 그리고 다시 HTML parsing을 진행한다.
 - 인터넷이 느리고, main.js의 용량이 크다면 사용자에게 문서를 노출하는데 많은 시간이 소요되게 된다.
 ``` javascript
 <!DOCTYPE html>
