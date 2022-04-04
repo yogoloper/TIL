@@ -203,6 +203,6 @@ console.log(`value: ${text}, type: ${typeof text}`);
 // number로 변경
 text = '8' / '2';
 console.log(`value: ${text}, type: ${typeof text}`);
-// number로 변경된 줄 모르고 string 함수를 사용하면 런에러 발생
+// number로 변경된 줄 모르고 string 함수를 사용하면 런타임 타입에러 발생
 console.log(text.charAt(0));
 ```
