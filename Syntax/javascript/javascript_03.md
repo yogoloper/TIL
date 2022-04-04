@@ -31,6 +31,7 @@
 ### Variable 선언 방법
 #### let (ES6에서부터 추가)
 - Mutable Type  
+  (read/write)  
   변수 선언 후 변수의 값을 계속 변경할 수 있다.
 ``` javascript
 // variable.js
@@ -65,7 +66,8 @@ console.log(globalName);
   -> block을 무시하고 block 내의 변수를 외부에서 호출이 가능하다.
 
 #### constants
-- Immtable Type  
+- Immutable Type  
+  (read only)  
   선언과 동시에 값을 한 번 할당하면 변수의 값을 변경할 수 없다.
 - 장점  
   - 보안성 향상
