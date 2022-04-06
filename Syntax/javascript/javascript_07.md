@@ -86,8 +86,8 @@ console.log(person4);
 fucntion makePerson(name, age) {
   return {
     // Property value shorthand
-    // name: name,
-    // age: age
+    // this.name: name,
+    // this.age: age
     name,
     age
   }
