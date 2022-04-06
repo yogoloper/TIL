@@ -7,7 +7,6 @@
   - [최단 경로](#%EC%B5%9C%EB%8B%A8-%EA%B2%BD%EB%A1%9C)
   - [플로이드-워셜](#%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%85%9C)
     - [구현](#%EA%B5%AC%ED%98%84)
-      - [구현 1](#%EA%B5%AC%ED%98%84-1)
   - [[이코테]플로이드 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [[이코테]정확한 순위 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EC%A0%95%ED%99%95%ED%95%9C-%EC%88%9C%EC%9C%84---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
   - [[이코테]전보- 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EC%A0%84%EB%B3%B4--%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
@@ -61,7 +60,6 @@
 4 3 2
 ```
 
-#### 구현 1
 ``` python
 from collections import defaultdict
 from pprint import pprint
