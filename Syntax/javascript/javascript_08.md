@@ -75,14 +75,14 @@ fruits.forEach((fruit) => console.log(fruit));
 ## Addtion, deletion, copy
 - addition  
   push(a)  
-  unshift(a) : 앞에서부터 데이터 입력 (재정렬하므로 매우 느린 연산)
-  splice(a, b, c, d) : a인덱스에서 b개의 원소 삭제 후, c, d 삽입
-- delettion
-  pop() : 지우면서 지운 원소 반환
-  shift() : 앞에서부터 데이터 삭제 (재정렬하므로 매우 느린 연산)
-  splice(a, b) : a 인덱스에서 b개의 원소를 삭제, b 없으면 a부터 모두 삭제
-- copy
-  a.concat(b) : a 배열 뒤에 b 배열 추가
+  unshift(a) : 앞에서부터 데이터 입력 (재정렬하므로 매우 느린 연산)  
+  splice(a, b, c, d) : a인덱스에서 b개의 원소 삭제 후, c, d 삽입  
+- delettion  
+  pop() : 지우면서 지운 원소 반환  
+  shift() : 앞에서부터 데이터 삭제 (재정렬하므로 매우 느린 연산)  
+  splice(a, b) : a 인덱스에서 b개의 원소를 삭제, b 없으면 a부터 모두 삭제  
+- copy  
+  a.concat(b) : a 배열 뒤에 b 배열 추가  
 ``` javascript
 // array.js
 
