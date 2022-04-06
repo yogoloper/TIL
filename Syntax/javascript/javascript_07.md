@@ -105,7 +105,7 @@ function Person(name, age) {
   this.name = name;
   this.age = age;
   // return this;
-  
+}
 const person4 = new Person('elile', 30);
 ```
 
