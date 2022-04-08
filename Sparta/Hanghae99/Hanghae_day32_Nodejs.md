@@ -21,10 +21,11 @@
 - MongoDB
 
 # Retrospect
-javascript ES6부터 추가된 for...in, for...of와 HTTP METHOD인 PUT, PATCH에 대해서 조사해봤다.  
-단순히 노출하는 부분이 다르다고 생각했던 for...in/of는 내가 생각한 것 보다 깊이 있는 지식이 필요했다.  
+javascript ES6부터 추가된 for...in, for...of와  
+HTTP METHOD인 PUT, PATCH에 대해서 조사해봤다.  
 
-for...in은 객체의 속성을 반복, for...of는 반복 가능한 객체의 값을 반복 한다.
+단순히 노출하는 부분이 다르다고 생각했던 for...in/of는 내가 생각한 것 보다 깊이 있는 지식이 필요했다.  
+for...in은 객체의 속성을 반복, for...of는 반복 가능한 객체의 값을 반복 한다.  
 
 PUT, PATCH는 각 메서드를 올바르게 작성 하였을때의 멱등성에 여부에 대한 차이가 있었다.  
-개발자들은 약속도 많이 만들고 서로 약속을 잘 지키는것 같다.
+개발자들은 약속도 많이 만들고 서로 약속을 잘 지키는것 같다.  
