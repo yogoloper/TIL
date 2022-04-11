@@ -1,41 +1,31 @@
-# [항해99 6기] Node.js 주특기 주간(2) - 2022.04.09
+# [항해99 6기] Node.js 주특기 주간(1) - 2022.04.08
 
 <!-- TOC -->
 
-- [[항해99 6기] Node.js 주특기 주간2 - 2022.04.09](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-nodejs-%EC%A3%BC%ED%8A%B9%EA%B8%B0-%EC%A3%BC%EA%B0%842---20220409)
+- [[항해99 6기] Node.js 주특기 주간1 - 2022.04.08](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-nodejs-%EC%A3%BC%ED%8A%B9%EA%B8%B0-%EC%A3%BC%EA%B0%841---20220408)
 - [Learned](#learned)
-  - [- MongoDB](#--mongodb)
 - [Will learn](#will-learn)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
 
 # Learned
-- Template Engine
-  경로: https://github.com/yogoloper/TIL/blob/master/Knowledge/Web/02.md
-  - template engine을 가지고 
-- MongoDB
-  경로 : https://github.com/yogoloper/TIL/blob/master/Knowledge/Database/01.md
-  - 
+- javascript의 반복문  
+  경로: https://github.com/yogoloper/TIL/blob/master/Knowledge/javascript/01.md
+  - for...in, for...of
+- HTTP Method - PUT vs PATCH  
+  경로 : https://github.com/yogoloper/TIL/blob/master/Knowledge/Web/01.md
 
 # Will learn
-- DNS
-- gRPC 프로토콜
+- template engine
+- MongoDB
 
 # Retrospect
-리액트, 뷰, 앵귤러 같은 front-end의 프레임워크가 있는데 템플릿 엔진을 사용해야 하는 걸까?  
-닷넷 개발할때는 프론트엔드에서 백엔드엔드까지 한 사람이 다 작업을 했는데  
-그때 당시에도 리액트 같은 프레임워크를 사용하진 않았다.  
-사용자에게 보여지는 부분이 크지 않아서 프론트엔드 작업 비중이 낮았어서 그런걸로 기억된다.  
+javascript ES6부터 추가된 for...in, for...of와  
+HTTP METHOD인 PUT, PATCH에 대해서 조사해봤다.  
 
-지금은 ejs라는 노드의 템플릿 엔진을 사용해보려고 하는데,  
-html의 문법과 비슷하다고는 하나 이 역시 ejs를 별도로 찾아봐야 하는 수고가 있다.  
-혼자서 개발하는게 아니라면 템플릿 엔진의 필요에 대해서 좀 더 조사를 해봐야 할 것 갇다.
+단순히 노출하는 부분이 다르다고 생각했던 for...in/of는 내가 생각한 것 보다 깊이 있는 지식이 필요했다.  
+for...in은 객체의 속성을 반복, for...of는 반복 가능한 객체의 값을 반복 한다.  
 
-항해의 웹개발 기초반을 들으면 파이썬으로 사이트 몇 개를 만드는데,  
-이때 MongoDB를 처음 접하게 되었다. 정화히는 NoSQL을 처음 접하게 되었다.  
-
-RDB만 사용해왔기에 테이블도 만들지 않고서 데이터를 넣으면 자동으로 콜렉션이 만들어지고  
-데이터 형식도 자유롭게 들어가는게 너무 당황스러웠다.  
-다행이도 노드에서는 mongoose라는 패키지가 MongoDB의 이러한 자유도를 낮춰주는데  
-내 입장에서는 정말 감사하다.
+PUT, PATCH는 각 메서드를 올바르게 작성 하였을때의 멱등성에 여부에 대한 차이가 있었다.  
+개발자들은 약속도 많이 만들고 서로 약속을 잘 지키는것 같다.  

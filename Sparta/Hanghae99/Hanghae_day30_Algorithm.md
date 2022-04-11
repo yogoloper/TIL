@@ -1,75 +1,117 @@
-# [항해99 6기] 알고리즘 주간(27) - 2022.04.05
+# [항해99 6기] 알고리즘 주간(26) - 2022.04.04
 
 <!-- TOC -->
 
-- [[항해99 6기] 알고리즘 주간27 - 2022.04.05](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%8427---20220405)
+- [[항해99 6기] 알고리즘 주간26 - 2022.04.04](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A3%BC%EA%B0%8426---20220404)
 - [Learned](#learned)
-  - [동적 계획법Dynamic Programming](#%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95dynamic-programming)
-  - [DP로 피보나치 수열 구현](#dp%EB%A1%9C-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EC%88%98%EC%97%B4-%EA%B5%AC%ED%98%84)
-  - [[이코테]정수 삼각형 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EC%A0%95%EC%88%98-%EC%82%BC%EA%B0%81%ED%98%95---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [[이코테]퇴사 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%ED%87%B4%EC%82%AC---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [[이코테]효율적인 화폐 구성 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8-%ED%99%94%ED%8F%90-%EA%B5%AC%EC%84%B1---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [[이코테]개미 전사 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EA%B0%9C%EB%AF%B8-%EC%A0%84%EC%82%AC---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
-  - [[이코테]바닥 공사 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EB%B0%94%EB%8B%A5-%EA%B3%B5%EC%82%AC---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [최단 경로](#%EC%B5%9C%EB%8B%A8-%EA%B2%BD%EB%A1%9C)
+  - [플로이드-워셜](#%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%85%9C)
+    - [구현](#%EA%B5%AC%ED%98%84)
+  - [[이코테]플로이드 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[이코테]정확한 순위 - 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EC%A0%95%ED%99%95%ED%95%9C-%EC%88%9C%EC%9C%84---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[이코테]전보- 더 공부하기](#%EC%9D%B4%EC%BD%94%ED%85%8C%EC%A0%84%EB%B3%B4--%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[boj]녹색 옷 입은 애가 젤다지? - 더 공부하기](#boj%EB%85%B9%EC%83%89-%EC%98%B7-%EC%9E%85%EC%9D%80-%EC%95%A0%EA%B0%80-%EC%A0%A4%EB%8B%A4%EC%A7%80---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
+  - [[boj]운동 - 더 공부하기](#boj%EC%9A%B4%EB%8F%99---%EB%8D%94-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
 
 # Learned
-- 동적 계획법(Dynamic Programming)
-- 피보나치 수열
-- [이코테]정수 삼각형
-- [이코테]퇴사
-- [이코테]효율적인 화폐 구성
-- [이코테]개미 전사
-= [이코테]바닥 공사
+- 최단 경로
+- 플로이드-워셜
+- [이코테]플로이드
+- [이코테]정확한 순위
+- [이코테]전보
+- [boj]녹색 옷 입은 애가 젤다지?
+- [boj]운동
 
-## 동적 계획법(Dynamic Programming)
-- 큰 문제를 작은 문제로 쪼개서 그 답을 저장해두고 재활용한다.  
-  -> 겹치는 부분 문제(Overlapping Subproblem)을 메모이제이션(Memoication)한다.
+## 최단 경로
+- 그래프로 표현, 각 지점은 노드, 도로는 간선  
+- 다익스트라, 플로이드-위셜을 통해 해결
 
-## DP로 피보나치 수열 구현
-- 일반 적인 피보나치
+## 플로이드-워셜
+- 다익스트라 : 출발점을 정했을 때 다른 노드에 이르는 최단거리.
+- 플로이드-워셜 : 모든 지점에서 다른 모든 지점까지 최단거리.  
+  $D_{ab} = min(D_{ab}, D_{ak} + D_{kb})$  
+  -> a에서 b로, a에서 k거쳐서 b로 가는 것중의 최소값  
+  자기자신으로 가는 비용은 0  
+  직접 연결되어있지 않은 경로는 무한대.  
+
+<div style="background-color: white;">
+<image src="./images/Hanghae_day29_Algorithm_01.png">
+</div>
+
+![](./images/Hanghae_day29_Algorithm_02.png)
+
+
+### 구현
+![](./images/Hanghae_day29_Algorithm_03.png)
 ``` python
-def fibo(n):
-    if n in [1, 2]:
-        return 1
-    return fibo(n-1) + fibo(n-2)
+// testcase.txt
 
-assert fibo(10) == 55
-assert fibo(100) == 354224848179261915075 # 안끝난다.
+4
+7
+1 2 4
+1 4 6
+2 1 3
+2 3 7
+3 1 5
+3 4 4
+4 3 2
 ```
-- DP 피보나치  
-  -> 메모를 통해서 작게 처리된 부분들을 기억시킴
+
 ``` python
-memo = {1: 1, 2: 1}
+from collections import defaultdict
+from pprint import pprint
 
-def fibo(n):
-    if n in memo:
-        return memo[n]
-    memo[n] = fibo(n - 1) + fibo(n - 2)
-    return memo[n]
+INF = int(1e9)
 
-assert fibo(10) == 55
-assert fibo(100) == 354224848179261915075
+def floyd_warshall(graph):
+    n = len(graph)
+    dist = [[INF] * ( n + 1) for _ in range(n + 1)]
+
+    for idx in range(1, n + 1):
+        dist[idx][idx] = 0
+    for start, adjs in graph.items():
+        for adj, d in adjs:
+            dist[start][adj] = d
+
+    for k in range(1, n + 1):
+        for a in range(1, n + 1):
+            for b in range(1, n + 1):
+                dist[a][b] = min(dist[a][b], dist[a][k] + dist[k][b])
+
+    return dist
+
+n = int(input())
+m = int(input())
+graph = defaultdict(list)
+for _ in range(m):
+    a, b, c = map(int, input().split())
+    graph[a].append((b, c))
+
+pprint(floyd_warshall(graph))
 ```
 
-## [이코테]정수 삼각형 - 더 공부하기
-- 문제 : https://www.acmicpc.net/problem/1932
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/16_32.md  
+## [이코테]플로이드 - 더 공부하기
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/17_37.md  
 
-## [이코테]퇴사 - 더 공부하기
-- 문제 : https://www.acmicpc.net/problem/14501
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/16_33.md  
+## [이코테]정확한 순위 - 더 공부하기
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/17_38.md  
 
-## [이코테]효율적인 화폐 구성 - 더 공부하기
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/08_05.md  
+## [이코테]전보- 더 공부하기
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/09_03.md  
 
-## [이코테]개미 전사 - 더 공부하기
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/08_03.md  
+## [boj]녹색 옷 입은 애가 젤다지? - 더 공부하기
+- 문제 : https://www.acmicpc.net/problem/4485
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/4485.md  
 
-## [이코테]바닥 공사 - 더 공부하기
-- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/pyhon-for-coding-test/08_04.md  
+## [boj]운동 - 더 공부하기
+- 문제 : https://www.acmicpc.net/problem/1956
+- 풀이 : https://github.com/yogoloper/TIL/blob/master/Algorithm/Baekjoon-Online-Judge/1956.md  
 
 # Retrospect
-동적 계획법.. 유형이 딱 정해지지도 않고 점화식을 찾아내기도 어렵다..
+플로이드-워셜도 학부때 다뤘던가..  
+다익스트라보다 쉬운것같지만 3중 반복문이 헷갈리긴 마찬가지이다.  
+다익스트라는 출발점이 있을때 사용,  
+플로이드-워셜은 출발점이 정해져있지 않을때 모든 노드에서 출발할떄 사용.
