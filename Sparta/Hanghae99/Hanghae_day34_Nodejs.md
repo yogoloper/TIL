@@ -13,10 +13,8 @@
 # Learned
 - Template Engine
   경로: https://github.com/yogoloper/TIL/blob/master/Knowledge/Web/02.md
-  - template engine을 가지고 
 - MongoDB
   경로 : https://github.com/yogoloper/TIL/blob/master/Knowledge/Database/01.md
-  - 
 
 # Will learn
 - DNS
