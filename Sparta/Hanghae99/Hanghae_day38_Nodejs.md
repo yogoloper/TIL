@@ -16,7 +16,7 @@
   경로 : https://github.com/yogoloper/TIL/blob/master/Knowledge/Test/01.md
 
 # Will learn
-- XSS, CSR
+- XSS, CSRF
 
 # Retrospect
 오늘로 노드 개발자로서 필요한 사전지식을 조금씩 익힌거 같은데,  
