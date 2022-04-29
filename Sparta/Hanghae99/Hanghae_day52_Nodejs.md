@@ -3,7 +3,6 @@
 <!-- TOC -->
 
 - [[항해99 6기] Node.js 주특기 주간20 - 2022.04.27](#%ED%95%AD%ED%95%B499-6%EA%B8%B0-nodejs-%EC%A3%BC%ED%8A%B9%EA%B8%B0-%EC%A3%BC%EA%B0%8420---20220427)
-- [Learned](#learned)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
