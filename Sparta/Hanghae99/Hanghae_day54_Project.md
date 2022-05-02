@@ -7,7 +7,6 @@
   - [Web Socket](#web-socket)
     - [Polling](#polling)
     - [SSE Server Sent Event](#sse-server-sent-event)
-  - [Socket.IO](#socketio)
 - [Retrospect](#retrospect)
 
 <!-- /TOC -->
@@ -30,3 +29,5 @@ HTTP는 클라이언트에서 서버로 단방향 요청을 보내는 통신이�
 즉, 서버에서 클라이언트로 보내는 단방향 서비스 이다.
 
 # Retrospect
+어제도 TIL을 빠뜨렸다..  
+요즘들어 조금 소홀해진거 같은데 끊기있게 작성하고 습관을 들이자!
