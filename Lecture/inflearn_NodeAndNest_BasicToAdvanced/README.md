@@ -14,3 +14,7 @@ https://www.inflearn.com/course/%ED%83%84%ED%83%84%ED%95%9C-%EB%B0%B1%EC%97%94%E
   - https://expressjs.com
 - typescript
   - https://www.staging-typescript.org
+- NestJS
+  - https://docs.nestjs.com/
+- ES Lint
+  - https://eslint.org/docs/rules/
