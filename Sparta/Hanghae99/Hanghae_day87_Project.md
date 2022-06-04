@@ -25,19 +25,19 @@ SELECT * FROM information_schema.events;
 ``` SQL
 CREATE EVENT Active_Room 
 ON SCHEDULE EVERY 10 MINUTE
-STARTS NOW()
+STARTS '2022-06-01 00:00:00'
 COMMENT '채팅방 활성화'
 DO
 UPDATE room SET status = 1
-WHERE startdate <= NOW()
+WHERE startdate <= NOW() AND NOW() <= enddate AND status = 0
 
 CREATE EVENT InActive_Room 
 ON SCHEDULE EVERY 10 MINUTE
-STARTS NOW()
+STARTS '2022-06-01 00:00:00'
 COMMENT '채팅방 비활성화'
 DO
 UPDATE room SET status = 2
-WHERE enddate <= NOW()
+WHERE enddate <= NOW() AND status = 1
 ```
 
 이벤트 삭제
@@ -56,6 +56,6 @@ select @@global.time_zone, @@session.time_zone,@@system_time_zone;
 
 타임존 설정
 ``` SQL
-SET GLOBAL time_zone='Asia/Seoul'
-SET time_zone='Asia/Seoul'
+SET GLOBAL time_zone = 'Asia/Seoul'
+SET time_zone = 'Asia/Seoul'
 ```
